@@ -8,7 +8,7 @@ import java.util.List;
  * Дана последовательность чисел от 1 до N, в которой одно число пропущено.
  * Например, для N = 5: 1 3 4 5 (пропущено 2).
  */
-public class FindMissingNumberInArray implements ExampleRunner<Integer, List<Integer>> {
+public class FindMissingNumberSortedInArray implements ExampleRunner<Integer, List<Integer>> {
     @Override
     public Integer executeExample(List<Integer> params) {
         boolean zero = params.get(0) == 0;

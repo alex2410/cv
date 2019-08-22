@@ -5,9 +5,9 @@ import org.testng.annotations.Test;
 
 import java.util.List;
 
-public class FindMissingNumberInArrayTest {
+public class FindMissingNumberSortedInArrayTest {
 
-    private FindMissingNumberInArray find = new FindMissingNumberInArray();
+    private FindMissingNumberSortedInArray find = new FindMissingNumberSortedInArray();
 
     @Test
     public void testExecuteExample() {

@@ -1,3 +1,4 @@
+import ru.trushkin.cv.tasks.FindMissingNumberSortedInArray;
 import ru.trushkin.cv.tasks.binarysearch.FindMissingNumberSortedInArrayBinary;
 
 module ru.trushkin.cv.tasks {
@@ -5,6 +6,6 @@ module ru.trushkin.cv.tasks {
 
     provides ru.trushkin.cv.runner.ExampleRunner
             with ru.trushkin.cv.tasks.FizzBuzz,
-                    ru.trushkin.cv.tasks.FindMissingNumberInArray,
+                    FindMissingNumberSortedInArray,
                     FindMissingNumberSortedInArrayBinary;
 }
