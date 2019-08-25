@@ -1,5 +1,6 @@
 import ru.trushkin.cv.tasks.FindMissingNumberInArray;
 import ru.trushkin.cv.tasks.FindMissingNumberSortedInArray;
+import ru.trushkin.cv.tasks.FindTwoMissingNumberInArray;
 import ru.trushkin.cv.tasks.binarysearch.FindMissingNumberSortedInArrayBinary;
 
 module ru.trushkin.cv.tasks {
@@ -9,5 +10,6 @@ module ru.trushkin.cv.tasks {
             with ru.trushkin.cv.tasks.FizzBuzz,
                     FindMissingNumberSortedInArray,
                     FindMissingNumberSortedInArrayBinary,
-                    FindMissingNumberInArray;
+                    FindMissingNumberInArray,
+                    FindTwoMissingNumberInArray;
 }
