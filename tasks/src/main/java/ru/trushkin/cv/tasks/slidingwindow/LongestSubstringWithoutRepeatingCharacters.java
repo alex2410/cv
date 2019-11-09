@@ -1,4 +1,4 @@
-package ru.trushkin.cv.tasks;
+package ru.trushkin.cv.tasks.slidingwindow;
 
 import ru.trushkin.cv.runner.ExampleRunner;
 

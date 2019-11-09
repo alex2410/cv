@@ -2,6 +2,7 @@ package ru.trushkin.cv.tasks;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
+import ru.trushkin.cv.tasks.slidingwindow.LongestSubstringWithoutRepeatingCharacters;
 
 public class LongestSubstringWithoutRepeatingCharactersTest {
 
