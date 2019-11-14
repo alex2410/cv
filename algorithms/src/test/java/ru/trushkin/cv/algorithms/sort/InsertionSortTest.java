@@ -3,10 +3,11 @@ package ru.trushkin.cv.algorithms.sort;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class SelectionSortTest {
+import static org.testng.Assert.*;
 
-    SelectionSort sort = new SelectionSort();
+public class InsertionSortTest {
 
+    InsertionSort sort = new InsertionSort();
     @Test
     public void testSort() {
         int[] array = new int[]{2, 5, 2, 7, 9};
@@ -24,5 +25,5 @@ public class SelectionSortTest {
         array = new int[]{-1};
         sort.sort(array);
         Assert.assertEquals(array, new int[]{-1});
-    }
+        }
 }
