@@ -7,19 +7,19 @@ public class InsertionSortList {
             return head;
         }
         ListNode result = new ListNode(0);
-        ListNode previous = result;
+        ListNode sorted = result;
         ListNode current = head;
         while (current != null) {
             ListNode next = current.next;
             //ищем место вставки
-            while (previous.next != null && previous.next.val < current.val) {
-                previous = previous.next;
+            while (sorted.next != null && sorted.next.val < current.val) {
+                sorted = sorted.next;
             }
-            ListNode temp = previous.next;
-            previous.next = current;
+            ListNode temp = sorted.next;
+            sorted.next = current;
             current.next = temp;
             //следующая итерация
-            previous = result;
+            sorted = result;
             current = next;
         }
         return result.next;

@@ -24,5 +24,9 @@ public class BubbleSortTest {
         array = new int[]{-1};
         bubbleSort.sort(array);
         Assert.assertEquals(array, new int[]{-1});
+
+        array = new int[]{};
+        bubbleSort.sort(array);
+        Assert.assertEquals(array, new int[]{});
     }
 }
