@@ -1,4 +1,4 @@
-package ru.trushkin.cv.recursion;
+package ru.trushkin.cv.algorithms.sort;
 
 import java.util.Arrays;
 
