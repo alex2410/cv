@@ -19,5 +19,27 @@ public class CousinsBinaryTreeTest {
         n2.right = n4;
         n3.right = n5;
         Assert.assertTrue(tree.isCousins(n1, 5, 4));
+
+        CousinsBinaryTree.TreeNode n22 = new CousinsBinaryTree.TreeNode(10);
+        tree.insert(n22, 5);
+        tree.insert(n22, 6);
+        tree.insert(n22, 2);
+        tree.insert(n22, 7);
+        tree.insert(n22, 12);
+        tree.insert(n22, 15);
+        tree.insert(n22, 1);
+        tree.insert(n22, 9);
+        tree.insert(n22, 8);
+        System.out.println(tree.heigth(n22));
+        System.out.println(tree.find(n22, 6));
+        System.out.println(tree.find(n22, 2));
+        System.out.println(tree.find(n22, 51));
+        System.out.println(tree.find(n22, -1));
+        System.out.println(tree.find(n22, 15));
+        tree.display(n22);
+        tree.printLeaves(n22);
+        tree.delete(n22, 5);
+        tree.delete(n22, 2);
+        tree.delete(n22, 6);
     }
 }
